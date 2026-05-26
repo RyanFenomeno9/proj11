@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lógica com JavaScript</title>
+</head>
+<body>
+
+
+<script>
+let nome = [];
+let lista = "";
+for(i = 0; i < 7; i++)
+{
+    nome[i] = prompt("Digite um nome");
+}
+
+for(i = 0; i < 7; i++)
+{
+    lista = lista + `\n${nome[6-i]}`;
+}
+
+alert(`Os nomes que voce colocou foram: ${lista}`);
+</script>
+
+
+</body>
+</html>
